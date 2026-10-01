@@ -1,0 +1,17 @@
+[project]
+name = "entsoe-py"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "SplashCode (Shota)", email = "shota.goginashvili@gmail.com" }
+]
+requires-python = ">=3.12"
+dependencies = []
+
+[project.scripts]
+entsoe-py = "entsoe_py:main"
+
+[build-system]
+requires = ["uv_build>=0.12.21,<0.13.0"]
+build-backend = "uv_build"
