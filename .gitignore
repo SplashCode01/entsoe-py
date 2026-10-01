@@ -1,2 +1,26 @@
+# Python bytecode and build output
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environment (recreated from uv.lock with `uv sync`)
+.venv/
+
+# Tool caches
+.mypy_cache/
+.ruff_cache/
+.pytest_cache/
+.coverage
+htmlcov/
+
 # Local secrets
 .env
+
+# Editors and OS clutter
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
